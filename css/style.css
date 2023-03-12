@@ -36,7 +36,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+    background:#013a40;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -219,6 +219,7 @@ header .navbar ul li a:hover{
     text-align: center;
     padding: 2rem;
     margin:2rem;
+    border-radius: 15px;
 }
 
 .about .row .counter .box span{
@@ -303,8 +304,18 @@ header .navbar ul li a:hover{
     object-fit: cover;
     transition: .2s linear;
 }
+.portfolio .box-container .box video{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
 
 .portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+.portfolio .box-container .box:hover video{
     transform: scale(1.2);
 }
 
@@ -331,8 +342,8 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
-    color:#fff;
+    background:#88888833;
+    color:#ffffff;
     text-transform: none;
     font-size: 1.7rem;
     width:100%;
