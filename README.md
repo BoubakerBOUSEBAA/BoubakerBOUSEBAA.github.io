@@ -20,7 +20,7 @@ Je suis un développeur full stack... Autodidacte passionné par les métiers de
 Github, Javascript, React, Angular, vue.JS, PHP, mySQL, HTML, CSS,...
 
 
-![Logo](images/banniere-logo.png)
+![Logo](images/bannière-logo.png)
 
 
 ## Screenshots
