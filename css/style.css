@@ -4,6 +4,8 @@
     --yellow:#f9ca24;
 }
 
+
+
 *{
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
@@ -17,6 +19,8 @@
     background:var(--yellow);
     color:#333;
 }
+
+
 
 html{
     font-size: 62.5%;
@@ -175,7 +179,7 @@ header .navbar ul li a:hover{
 
 .home p{
     font-size:2rem;
-    color:#aaa;
+    color:#ffffff;
     line-height: 1.5;
     padding: 1rem 0;
 }
@@ -403,15 +407,15 @@ header .navbar ul li a:hover{
     color: #f9ca24;
 }
 .title-formation {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
     margin: 10px 0;
     color: white;
 }
 .p-formation {
-    margin-bottom: 1.5vh;
+    margin-bottom: 1.8vh;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 table {
     width: 100%;
@@ -445,6 +449,7 @@ th {
 ol {
     display: flex;
     justify-content: space-around;
+    flex-flow: wrap;
 }
 
 li { 
@@ -473,10 +478,44 @@ h4 {
         align-items: flex-start;
         margin-right: 20px;
     }
+
+    p {
+        font-size: 1vh;
+    }
 }
 
 
 
+
+*,*::before,*::after{
+
+    box-sizing: border-box;
+    
+    }	
+    
+    
+    
+    .cadre-demo{
+    
+    
+    background: linear-gradient(45deg,hsl(203,77%,61%) 0%,
+    /*pour une transition plus douce du dégradé*/50%,
+    hsl(248, 78%, 62%) 100%);
+    animation: anim-demo 20s linear infinite
+    
+    }
+    
+    @keyframes anim-demo{
+    
+    to{
+    
+    filter:hue-rotate(360deg)
+    
+    }
+    
+    }
+    
+    
 
 
 
@@ -560,3 +599,6 @@ h4 {
     }
 
  }
+
+    
+    
