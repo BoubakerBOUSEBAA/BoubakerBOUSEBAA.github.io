@@ -3,7 +3,7 @@
 
 
 Mon CV Portfolio design site web responsif en HTML/CSS et JS
-
+![Portefolio](images/projet-Portefolio.gif)
 
 
 
