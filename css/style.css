@@ -307,6 +307,7 @@ header .navbar ul li a:hover{
     width:100%;
     object-fit: cover;
     transition: .2s linear;
+    border-radius: 15px;
 }
 .portfolio .box-container .box video{
     height:100%;
@@ -434,7 +435,7 @@ header .navbar ul li a:hover{
 .top{
     position: fixed;
     bottom:2rem; right: 2rem;
-    z-index: 100;
+    z-index: 1;
     display: none;
     height: 4rem;
 }
@@ -615,10 +616,29 @@ h4 {
     html{
         font-size: 50%;
     }
- 
+
+    .home{
+        padding:1rem 3rem;
+    }
+    
+    .about .row .info{
+        padding-left: 3rem;
+    }
+
+    .about .row .counter .box{
+        width: 40%;
+    }
  }
 
 @media (max-width:400px){
+
+    html{
+        font-size: 45%;
+    }
+
+    .home{
+        padding:1rem 2rem;
+    }
 
     header{
         width: 100vw;
@@ -638,11 +658,32 @@ h4 {
 
     .portfolio .box-container .box{
         width:100%;
+
     }
 
+    .portfolio .box-container .box video{
+        height:100%;
+        width:100%;
+        object-fit: cover;
+        transition: .2s linear;
+        border-radius: 15px;
+    }
+
+    .video-hidden
+    {
+        width: 100%;
+        height: auto;
+
+    }
     .contact .row form{
         margin:3rem 0;
     }
+
+    .contact .row .content{
+        padding:2rem;
+    }
+
+    
 
  }
 
